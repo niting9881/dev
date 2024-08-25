@@ -6,6 +6,8 @@ jobs:
     first_job:
         runs-on: ubuntu-latest
         steps:
+            - name: checkout steps
+              uses: actions/checkout@v4
             - name: job1
               run: echo "hello Nitin"
 
